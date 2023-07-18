@@ -5,6 +5,7 @@
  *
  * Return: 0
  */
+void piddy(void);
 
 int main(void)
 {

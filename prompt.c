@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "shell.h"
 
 #define MAX_COMMAND 10
@@ -49,5 +50,19 @@ void prompt(char **av, char **env)
 		else
 			wait(&status);
 
+=======
+#include "main.h"
+
+/**
+ * prompt - function that prints a prompt.
+ * Return: Void.
+ */
+void prompt(void)
+{
+	/*isatty works with interactive mode*/
+	if (isatty(STDIN_FILENO))
+	{
+		write(STDOUT_FILENO, "cisfun$$ ", 9);
+>>>>>>> b0cf704aca3aa07047403c4b2e60e63f923a04bf
 	}
 }

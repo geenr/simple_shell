@@ -46,5 +46,6 @@ int exec_tor(char **tokens, char *args)
 		return (EXIT_SUCCESS);
 	}
 	wait(&status);
+
 	return (0);
 }

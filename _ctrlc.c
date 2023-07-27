@@ -109,6 +109,7 @@ ssize_t get_line(char **str)
 			*str = _strcat(*str, buff);
 		}
 	}
+
 	return (size);
 }
 /**

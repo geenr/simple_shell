@@ -1,5 +1,14 @@
 #include "main.h"
 
+<<<<<<< HEAD
+int main(int ac, char **av, char **env)
+{
+	if (ac == 1)
+	{
+		prompt(av, env);
+	}
+	return (0);
+=======
 /**
  * main - runs a Simple Shell program.
  * @ac: Number of arguments.
@@ -47,4 +56,5 @@ int main(int ac, char *av[])
 		free(tokens);
 	}
 	return (Status);
+>>>>>>> b0cf704aca3aa07047403c4b2e60e63f923a04bf
 }

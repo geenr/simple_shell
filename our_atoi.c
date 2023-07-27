@@ -65,7 +65,7 @@ char *_strcpy(char *dest, char *src)
 
 /**
  * _putchar - function that writes the character c to stdout.
- * almost similar to printf
+ * almost similar to printf.
  * @c: The character to print.
  * Return: On success - 1.
  */

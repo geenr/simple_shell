@@ -87,7 +87,6 @@ char **_strtokenize(char *str)
 		i++;
 	}
 	tokens[i] =  NULL;
-
 	return (tokens);
 }
 
